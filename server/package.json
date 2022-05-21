@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohamadAlayan/mern-book-store.git"
+  },
+  "author": "Mohamad Alyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohamadAlayan/mern-book-store/issues"
+  },
+  "homepage": "https://github.com/MohamadAlayan/mern-book-store#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.3",
+    "nodemon": "^2.0.15"
+  }
+}
